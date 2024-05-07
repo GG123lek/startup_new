@@ -1,0 +1,23 @@
+.ui
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+.ui .lo
+{
+    font-size: 20px;
+    margin: 10px ;
+}
+.btn-cont
+{
+    background: rgba(245, 130, 32, 1);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+}

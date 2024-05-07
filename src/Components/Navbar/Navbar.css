@@ -1,0 +1,38 @@
+.nav-content{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+}
+.nav-content img{
+    width: 120px;
+}
+.navlinks{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none  
+}
+.load{
+    border-bottom:1px solid orange;
+    color: orange;
+    
+}
+
+.nav-btn button{
+   border: none;
+   padding: 12px;
+   font-size: 12px;
+   border-radius: 8px;
+   color: white;
+   font-size: 20px;
+   background-color: rgba(245, 130, 32, 1);
+}
+
+
+
+
+ 
+
