@@ -11,12 +11,18 @@ import stags from '../Assets/images/Picture (5).jpg'
 import mtags from '../Assets/images/Picture (6).jpg'
 import uiuximg from '../Assets/images/front.jpg'
 import tope from '../Assets/images/b2c.jpg'
+import maty from '../Assets/images/Icon set.jpg'
+import matiy from '../Assets/images/Icon set (1).jpg'
+import matoy from '../Assets/images/Icon set (2).jpg'
+import bjar from '../Assets/images/Image (4).jpg'
 import { FiArrowUpRight } from "react-icons/fi";
+import { FaArrowRight } from "react-icons/fa";
 
 import './Home.css'
 
 const Home = () => {
   return (
+    <>
     <div>
         <Navbar/>
         <div className='ui'>
@@ -150,7 +156,7 @@ const Home = () => {
       <div className='real'>
         <div>
          <img src={uiuximg} alt=''/>
-         <p>Colllection with phone number</p>
+         <p>Collection with phone number</p>
          <h5>
           Offerings,tithe and contributions can now be
           <br/>
@@ -160,49 +166,49 @@ const Home = () => {
 
         <div>
         <img src={uiuximg} alt=''/>
-        <p>Colllection with phone number</p>
+        <p>Send Payment Request</p>
          <h5>
-          Offerings,tithe and contributions can now be
+          Request for payment/transfer from family
           <br/>
-          collected easily with just a number
+          and friends just using phone number.
         </h5>
         </div>
         <div>
         <img src={uiuximg} alt=''/>
-        <p>Colllection with phone number</p>
+        <p>Receive Payment Requests</p>
          <h5>
-          Offerings,tithe and contributions can now be
+          Receive and securely authorize payment/transfer
           <br/>
-          collected easily with just a number
+          request from friends and family from your mobile phone
         </h5>
         </div>
      </div>
          <div className='teal'>
           <div>
          <img src={uiuximg} alt=''/>
-        <p>Collection with phone number</p>
+        <p>Link All your Account</p>
          <h5>
-          Offerings,tithe and contributions can now be
+          Customers can link as many accounts in
           <br/>
-          collected easily with just a number
+          different banks to their PayAttitude Digital app.
          </h5>
           </div>
           <div>
          <img src={uiuximg} alt=''/>
-        <p>Colllection with phone number</p>
+        <p>ATM Withdrawals with Phone Number</p>
          <h5>
-          Offerings,tithe and contributions can now be
+          Send friends,family and staff to withdraw
           <br/>
-          collected easily with just a number
+          cash at the ATM with just a phone number
           </h5>
          </div>
          <div>
          <img src={uiuximg} alt=''/>
-        <p>Colllection with phone number</p>
+        <p>Secure Transactions</p>
          <h5>
-          Offerings,tithe and contributions can now be
+          Perform highly secure online transactions
           <br/>
-          collected easily with just a number
+          with your phone and a 6 digit pin
         </h5>
        </div>
        </div>
@@ -226,6 +232,8 @@ const Home = () => {
           POS have the opportunity to use their mobile phones as<br/>
           POS with PayAttitude Digital app installed on their devices.
           </p>
+          <br/>
+          <h4 className='dwn'>Learn More<FaArrowRight  className='tic'/></h4>
           </div>
           </div>
         
@@ -233,9 +241,85 @@ const Home = () => {
         </div>
         </div>
         <div className='uj'>
-          <h3>Here`s what our customers about us</h3>
+          <h3>Why PayAttitude</h3>
+          <p>
+            Building an innovative
+            <br/> 
+            solution for the unbanked
+          </p>
+          <h4>
+          We provide a seamless solution that allow businesses to effortlessly
+          <br/>
+          accept and send funds through your phone number
+          </h4>
+          
         </div>
-    </div> 
+    </div>
+  <div className='ewz'>
+
+
+       <div>
+        <img src={maty} alt=''/>
+        <p>Track your Spending</p>
+        <h4>
+          Get accurate and detailed digital receipts for every
+              <br/>
+          transactions to help keep track of your spending
+        </h4>
+       </div> 
+       <div>
+        <img src={matiy} alt=''/>
+        <p>Track your Spending</p>
+        <h4>
+          Get accurate and detailed digital receipts for every
+              <br/>
+          transactions to help keep track of your spending
+        </h4>
+       </div>
+       <div>
+        <img src={matoy} alt=''/>
+        <p>Track your Spending</p>
+        <h4>
+          Get accurate and detailed digital receipts for every
+              <br/>
+          transactions to help keep track of your spending
+        </h4>
+       </div>
+
+    </div>
+               <div className='mpaq'>
+                <p>Here's what our customers say about us </p>
+                </div>  
+
+        
+                <div>
+                  
+                
+            <div className='gafr'>
+               <img src={bjar} alt=''/>
+               <div className='gray'>
+
+                <p>
+                  "
+                   Love the simplicity of the service and the
+                   customer support.We can't
+                   imagine working without it."
+                </p> 
+                <div className='tool'>
+                  
+                  <div className='dots'>
+                    <div ></div >
+                    <div ></div >
+                    <div ></div >
+                  </div>
+                  <p>Ifeanyi Okoli</p>
+                  <h1>Chief Digital Designer,Hope Bank</h1>
+                </div>
+               </div>
+                </div>
+                
+          </div>
+    </> 
   )
 }
 
