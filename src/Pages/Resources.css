@@ -1,0 +1,109 @@
+.resou-cont
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.resou-cont h1{
+    color: rgba(29, 41, 57, 1);
+    font-size: 90px;
+    padding: 20px;
+}
+.resou-cont p
+{
+    color: rgba(71, 84, 103, 1);
+    font-size: 25px;
+    margin: 20px;
+}
+.inputSEA
+{
+    display: flex;
+    border: 1px solid gainsboro;
+    gap: 5px;
+    padding: 8px;
+    width: 15%;
+    border-radius: 5px;
+}
+.inputSEA input
+{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.inputSEA ::placeholder
+{
+    font-size: 15px;
+}
+.res-con
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 60px;
+    text-align: center;
+}
+.res-con h1
+{
+    color: rgba(29, 41, 57, 1);
+    font-size: 30px;
+}
+.res-con p
+{
+    color: rgba(71, 84, 103, 1);
+    font-size: 20px;
+}
+.quest{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+.topup{
+    display: flex;
+    flex-direction: column;
+    padding-left: 170px;
+    padding-right: 170px;
+    gap: 20px;
+}
+.qaty
+{
+    background: rgba(236, 238, 241, 1);
+    padding:50px;
+    margin: 0px;
+}
+.qaty p
+{
+    color: rgba(29, 41, 57, 1);
+}
+.qaty h3{
+    color: rgba(29, 41, 57, 1);
+    font-size: 30px;
+    font-weight: bold;
+}
+.qaty h4{
+    color: rgba(245, 130, 32, 1);
+}
+.nvxx
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nvxx img{
+    width: 16%;
+}
+.qaty .vcnn
+{
+    background: rgba(245, 130, 32, 1);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+     
+}

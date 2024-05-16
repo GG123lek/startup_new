@@ -9,16 +9,22 @@ import vtq from '../Assets/images/Picture (3).jpg'
 import tags from '../Assets/images/Picture (4).jpg'
 import stags from '../Assets/images/Picture (5).jpg'
 import mtags from '../Assets/images/Picture (6).jpg'
+import ktags from '../Assets/images/Picture (8).jpg'
+import ptags from '../Assets/images/Picture (9).jpg'
+import utags from '../Assets/images/Picture (10).jpg'
 import uiuximg from '../Assets/images/front.jpg'
 import tope from '../Assets/images/b2c.jpg'
 import maty from '../Assets/images/Icon set.jpg'
 import matiy from '../Assets/images/Icon set (1).jpg'
 import matoy from '../Assets/images/Icon set (2).jpg'
 import bjar from '../Assets/images/Image (4).jpg'
+import maaa from  '../Assets/images/Store (5).jpg'
+import baaa from '../Assets/images/Store (6).jpg'
+import jaaa from '../Assets/images/iPhone 14 Mockups.jpg'
 import { FiArrowUpRight } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa";
-
 import './Home.css'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -48,7 +54,7 @@ const Home = () => {
 
    <div className='payment'>
        <div className='kam'>
-         <div className='dam' style={{borderLeft:"5px solid orange"}}>
+         <div className='dam' >
            <h1>Payattitude Digital</h1>
            <p>Our trendy, smart and convenient payment platform enables users 
             to use just their phone numbers for transactions at the ATM,
@@ -88,7 +94,7 @@ const Home = () => {
    <div className='containerPics'>
 
     <div className='contents'>
-      <img src={tags}alt=''className='nbra'/>
+      <img src={tags}alt=''/>
       <p>1</p>
       <h3>ATM</h3>
        <span>
@@ -97,7 +103,7 @@ const Home = () => {
        </span>
     </div>
     <div className='contents'>
-      <img src={stags} alt='' className='caxm'/>
+      <img src={stags} alt='' />
       <p>2</p>
       <h3>Pos</h3>
       <span>
@@ -106,7 +112,7 @@ const Home = () => {
       </span>
     </div>
     <div className='contents'>
-      <img src={mtags} alt=''className='klzt'/>
+      <img src={mtags} alt=''/>
       <p>3</p>
       <h3>Merchant</h3>
       <span>
@@ -116,7 +122,7 @@ const Home = () => {
     </div>
     <div>
     <div className='contents'>
-      <img src={mtags} alt=''className='klzt'/>
+      <img src={ktags} alt=''/>
       <p>4</p>
       <h3>Web</h3>
       <span>
@@ -127,7 +133,7 @@ const Home = () => {
     </div>
     <div>
     <div className='contents'>
-      <img src={mtags} alt=''className='klzt'/>
+      <img src={ptags} alt=''/>
       <p>5</p>
       <h3>Person-2-Person(P2P)</h3>
       <span>
@@ -138,7 +144,7 @@ const Home = () => {
     </div>
     <div>
     <div className='contents'>
-      <img src={mtags} alt=''className='klzt'/>
+      <img src={utags} alt=''/>
       <p>6</p>
       <h3>Agency</h3>
       <span>
@@ -182,9 +188,7 @@ const Home = () => {
           request from friends and family from your mobile phone
         </h5>
         </div>
-     </div>
-         <div className='teal'>
-          <div>
+        <div>
          <img src={uiuximg} alt=''/>
         <p>Link All your Account</p>
          <h5>
@@ -211,6 +215,11 @@ const Home = () => {
           with your phone and a 6 digit pin
         </h5>
        </div>
+     </div>
+         <div className='teal'>
+      
+      
+      
        </div>
        </div>
         <div className='ty'>
@@ -295,31 +304,92 @@ const Home = () => {
                 <div>
                   
                 
-            <div className='gafr'>
-               <img src={bjar} alt=''/>
-               <div className='gray'>
+ <div className='gafr'>
+      <img src={bjar} alt='' />
+      <div className='processing'>
 
-                <p>
-                  "
-                   Love the simplicity of the service and the
-                   customer support.We can't
-                   imagine working without it."
-                </p> 
-                <div className='tool'>
-                  
-                  <div className='dots'>
-                    <div ></div >
-                    <div ></div >
-                    <div ></div >
-                  </div>
-                  <p>Ifeanyi Okoli</p>
-                  <h1>Chief Digital Designer,Hope Bank</h1>
-                </div>
-               </div>
-                </div>
-                
+         <p >
+         “Love the simplicity of the service and
+          <br/>
+          the prompt customer support. We can’t
+          <br/> 
+          imagine working without it.”
+      
+         </p>
+         <div className='flexouting'>
+
+      <div className='c-dot'>
+          
           </div>
-    </> 
+      <div className='r-dot'>
+          
+          </div>
+      <div className='v-dot'>
+          
+          </div>
+         </div>
+         <p className='tsaw'>ifeanyi Okoli</p>
+         <h3 className='colw'>Chief Digital Designer,HopeBank</h3>
+      </div>
+      </div>
+         
+         <div className='down-pic'>
+           <div >
+            <p>Join 100+ people who transact with</p>
+            <h3>Payattitude</h3>
+            <img src={maaa} alt=''/>
+            <img src={baaa} alt=''/>
+            </div>
+              <div>
+              <img src={jaaa} alt=''/>
+              </div>
+         </div>
+          <Footer/>
+         {/* <div className='topfooter'>
+         <div className='footer'>
+          <div className='logo'>
+            <img src={ftko} alt=''/>
+            <div className='socials'>
+              <img src={mkto}alt=''/>
+              <img src={bkto} alt=''/>
+              <img src={lkto} alt=''/> 
+              <img src={ukto} alt=''/>
+            </div>
+          </div>
+
+
+
+           <div >
+            <p>Company</p>
+            <p>About Us</p>
+            <p>FAQs</p>
+           </div>
+           <div >
+            <p>Legal</p>
+            <p>Privacy Policy</p>
+            <p></p>
+           </div>
+          
+          <div className='contactus'>
+              <p>Contact us</p>
+              <div className='contact'>
+                <img src={zklo} alt=''/>Customerservice@payattitude.com
+              </div>
+              <div className='contact'>
+              <img src={nklo} alt=''/>+23412704705
+              </div>
+              <div className='contact'>
+                <img src={pkolo} alt=''/>3,idowu Taylor street,Victoria island,Lagos
+             </div>  
+          </div>
+         </div>
+         <hr />
+      <p style={{padding:"10px", color:"white"}}>© 2023 Payattitude. All rights reserved.</p>
+         </div> */}
+      
+                
+      </div>
+  </> 
   )
 }
 

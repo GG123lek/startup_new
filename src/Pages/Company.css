@@ -1,0 +1,80 @@
+.company
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.company h1
+{
+    color: rgba(0, 0, 0, 1);
+    font-size: 90px;
+}
+.company p
+{
+    color: rgba(71, 84, 103, 1);
+    font-size: 30px;
+}
+.text-company
+{
+    text-align: center;
+    color: rgba(71, 84, 103, 1);
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+.all-pics
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.text3
+{
+    text-align: center;
+    padding: 50px;
+}
+.text3 h4
+{
+    color: rgba(245, 130, 32, 1);
+}
+.text3 h1
+{
+    color: rgba(16, 24, 40, 1);
+}
+.text3 p
+{
+    color: rgba(71, 84, 103, 1);
+}
+.compDirect
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    padding: 100px;
+    text-align: center;
+    gap: 150px;   
+}
+.qaty
+{
+    background: rgba(236, 238, 241, 1);
+    padding:100px;
+    margin: 0px;
+}
+.qaty p
+{
+    color: rgba(29, 41, 57, 1);
+}
+.qaty h3{
+    color: rgba(29, 41, 57, 1);
+    font-size: 30px;
+    font-weight: bold;
+}
+.qaty h4{
+    color: rgba(245, 130, 32, 1);
+}
+.nvxx
+{
+    text-align: center;
+}
+

@@ -1,0 +1,213 @@
+.pa-cont
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+.pa-cont h1{
+    color: rgba(29, 41, 57, 1);
+    padding: 10px;
+    font-size: 90px;
+}
+.pa-cont p{
+    color: rgba(71, 84, 103, 1);
+    padding: 10px;
+    font-size: 25px;
+}
+.arrow{
+    position: absolute;
+    right: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.arrow button{
+    padding: 6px;
+    background-color: rgba(245, 130, 32, 1);
+    border: none;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+.button p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.pa-cont .pa-btn
+{
+    background: rgba(245, 130, 32, 1);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.tex-cent
+{
+    text-align: center;
+    padding: 100px;
+}
+.tex-cent h1
+{
+    color: rgba(29, 41, 57, 1);
+}
+.tex-cent
+{
+    color: rgba(71, 84, 103, 1);
+}
+.text-div
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.text-div .checkbox
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.checkbox p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tex-chk
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.tex-chk .chk-st
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+.chk-st p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: rgba(71, 84, 103, 1);
+}
+.chk-st h4
+{
+    color: rgba(29, 41, 57, 1);
+}
+.chk-st h5
+{
+    color: rgba(245, 130, 32, 1);
+}
+.chk-st h5
+{
+    display: flex;
+    align-items: center; 
+    padding-top: 20px;
+    gap: 10px;   
+}
+.tex-list
+{
+    text-align: center;
+    color: rgba(29, 41, 57, 1);
+}
+
+/* styles for table components */
+.table{
+    margin: 30px;
+    width: 95%;
+}
+.table th{
+    border: 1px solid rgba(71, 84, 103, 1);
+    text-align: start;
+    background: rgba(233, 237, 245, 1);
+    padding: 10px;
+    color: rgba(29, 41, 57, 1);
+}
+.table td{
+    text-align: start;
+    border: 1px solid rgba(226, 226, 226, 1);
+    color: rgba(71, 84, 103, 1);
+    background:white;
+    padding: 10px;
+}
+.table-div
+{
+     border: 1px solid rgba(226, 226, 226, 1);
+     padding: 10px;
+     margin: 20px;
+     display: flex;
+}
+.small-cont
+{
+    border: 1px solid rgba(226, 226, 226, 1);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background: rgba(226, 226, 226, 1);
+    color: rgba(71, 84, 103, 1);
+}
+.main-div
+{
+    display: flex;
+    align-items: center;
+}
+.small-cont img
+{
+    align-items: center;
+    justify-content: space-between;
+}
+.small-cont p
+{
+    color: rgba(29, 41, 57, 1);
+}
+.nom
+{
+    color: rgba(29, 41, 57, 1);
+}
+.t{
+    background: red;
+}
+.y
+{
+    background: yellow;
+}
+.u
+{
+    background: red;
+}
+.w
+{
+    background: red;
+}
+.qaty
+{
+    background: rgba(236, 238, 241, 1);
+    padding:100px;
+    margin: 0px;
+}
+.qaty p
+{
+    color: rgba(29, 41, 57, 1);
+}
+.qaty h3{
+    color: rgba(29, 41, 57, 1);
+    font-size: 30px;
+    font-weight: bold;
+}
+.qaty h4{
+    color: rgba(245, 130, 32, 1);
+}
+.nvxx
+{
+    text-align: center;
+}

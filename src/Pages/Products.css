@@ -3,14 +3,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px;
+    
+    
     
 }
 
 .ui .lo
 {
     font-size: 20px;
-    margin: 10px ;
+    
 }
 .btn-cont
 {
@@ -21,3 +22,87 @@
     width: 150px;
     margin: 10px;
 }
+.ewz
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 290px;
+
+    padding: 30px;
+    flex-direction: start;
+    text-align: center;
+}
+.ewz p
+{
+    color: rgba(29, 41, 57, 1);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ewz h4{
+    color: rgba(29, 41, 57, 1);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.flexout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 180px;
+    
+}
+.mi
+{
+    padding: 100px;
+}
+.mi h4
+{
+ font-size: 100px;
+ font-weight: bold;
+ color: rgba(245, 130, 32, 1);   
+ text-align: center;
+}
+.qaty
+{
+    background: rgba(236, 238, 241, 1);
+    padding: 200px;
+}
+.qaty p
+{
+    color: rgba(29, 41, 57, 1);
+}
+.qaty h3{
+    color: rgba(29, 41, 57, 1);
+    font-size: 30px;
+    font-weight: bold;
+}
+.qaty h4{
+    color: rgba(245, 130, 32, 1);
+}
+.nvxx
+{
+    text-align: center;
+}
+.footer
+{
+    background: rgba(29, 41, 57, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    text-align: center;    
+}
+.footer h4{
+    padding: 10px;
+    text-align: center;
+}
+.footer p
+{
+ padding: 20px;   
+ text-align: center;
+}
+

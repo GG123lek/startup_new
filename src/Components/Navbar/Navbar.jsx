@@ -13,19 +13,19 @@ const Navbar = () => {
           <img src={the} alt='' />
           <div className='navlinks'>
                 <NavLink to="/" >
-                <p className='load'>Home</p>
+                <p style={{color:window.location.pathname === "/" ? "orange":"", borderBottom:window.location.pathname === "/" ? "1px solid orange":""}}>Home</p>
                 </NavLink>
                 <NavLink to="/product" >
-                <p>Products</p>
+                <p style={{color:window.location.pathname === "/product" ? "orange":"", borderBottom:window.location.pathname === "/product" ? "1px solid orange":""}}>Products</p>
                 </NavLink>
                 <NavLink to="/partners" >
-                  <p>Partners</p>
+                  <p style={{color:window.location.pathname === "/partners" ? "orange":"", borderBottom:window.location.pathname === "/partners" ? "1px solid orange":""}}>Partners</p>
                 </NavLink>
                 <NavLink to="/company">
-                <p>Company</p>
+                <p style={{color:window.location.pathname === "/company" ? "orange":"", borderBottom:window.location.pathname === "/company" ? "1px solid orange":""}}>Company</p>
                 </NavLink>
                 <NavLink to="/resources">
-                <p>Resources</p>
+                <p style={{color:window.location.pathname === "/resources" ? "orange":"", borderBottom:window.location.pathname === "/resources" ? "1px solid orange":""}}>Resources</p>
                 </NavLink>
                 </div>  
                 <div className='nav-btn'>
