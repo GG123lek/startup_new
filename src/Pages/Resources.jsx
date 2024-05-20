@@ -279,7 +279,9 @@ const Resources = () => {
           <img src={stre1} alt=''/>
             <h2>Still have questions?</h2>
             <p>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
-            <button className='vcnn'>
+            <button className='vcnn' onClick={()=>{
+          alert("New pages")
+        }}>
               Get in touch
             </button>
           </div>

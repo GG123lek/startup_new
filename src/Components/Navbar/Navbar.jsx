@@ -30,7 +30,9 @@ const Navbar = () => {
                 </div>  
                 <div className='nav-btn'>
                 
-                <button >Contacts</button> 
+                <button onClick={()=>{
+          alert("welcome to this page")
+        }} >Contacts</button> 
                 </div> 
         </div>
     </>

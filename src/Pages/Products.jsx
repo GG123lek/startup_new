@@ -25,7 +25,9 @@ const Products = () => {
          <br/>
          products comes here
         </p>
-        <button className='btn-cont'>Explore products</button>
+        <button className='btn-cont' onClick={()=>{
+          alert("lets go")
+        }}>Explore products</button>
         </div>
         <img src={imgProduct} alt=''/>
       </div>
@@ -71,13 +73,15 @@ const Products = () => {
       </div>
         <img src={zesll} alt=''/>
     </div>
-         <div className='qaty'>
+         <div className='comer'>
           <div className='nvxx'>
             <p>What are you waiting for?</p>
             <h3>Get your new Payment Digital remote now!!</h3>
             <h4>Download app</h4>
+            <div className='cd'>
             <img src={stre1} alt=''/>
             <img src={stre2} alt=''/>
+            </div>
           </div>
          </div>
          

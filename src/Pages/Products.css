@@ -21,6 +21,7 @@
     height: 40px;
     width: 150px;
     margin: 10px;
+    border: none;
 }
 .ewz
 {
@@ -29,7 +30,6 @@
     justify-content: center;
     align-items: center;
     gap: 290px;
-
     padding: 30px;
     flex-direction: start;
     text-align: center;
@@ -66,26 +66,40 @@
  color: rgba(245, 130, 32, 1);   
  text-align: center;
 }
-.qaty
+.comer
 {
-    background: rgba(236, 238, 241, 1);
-    padding: 200px;
+    background: rgba(223,237,245,1);
+    padding:100px;
+    margin: 0px;
 }
-.qaty p
+.comer p
 {
     color: rgba(29, 41, 57, 1);
 }
-.qaty h3{
+.comer h3{
     color: rgba(29, 41, 57, 1);
     font-size: 30px;
     font-weight: bold;
 }
-.qaty h4{
+.comer h4{
     color: rgba(245, 130, 32, 1);
 }
 .nvxx
 {
     text-align: center;
+    
+}
+.cd
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cd img
+{
+    height: 100%;
+    width: 100%;
 }
 .footer
 {

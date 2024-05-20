@@ -36,14 +36,16 @@ const Home = () => {
         <h1>Manage all your bank<br/>account from one<br/>secure</h1>
         <p className='lo'>One secure platform to pay,get paid and manage<br/>
         your finance better and with ease</p>
+         <div className='homeP'>
         <img src={taw} alt=''/>
         <img src={naw} alt=''/>
+        </div>
         <div>
-        <img src={uaw} alt=''/>
+        <img src={uaw} alt='' className='mild'/>
         <img src={ham} alt='' className='yam'/>
         </div>
         </div>
-        <img src={caw} alt='' className='op'/>
+        <img  src={caw} alt='' className='op'/>
         </div>
         
        <div className='raw'>
@@ -272,7 +274,6 @@ const Home = () => {
         <p>Track your Spending</p>
         <h4>
           Get accurate and detailed digital receipts for every
-              <br/>
           transactions to help keep track of your spending
         </h4>
        </div> 
@@ -281,7 +282,6 @@ const Home = () => {
         <p>Track your Spending</p>
         <h4>
           Get accurate and detailed digital receipts for every
-              <br/>
           transactions to help keep track of your spending
         </h4>
        </div>
@@ -290,7 +290,6 @@ const Home = () => {
         <p>Track your Spending</p>
         <h4>
           Get accurate and detailed digital receipts for every
-              <br/>
           transactions to help keep track of your spending
         </h4>
        </div>

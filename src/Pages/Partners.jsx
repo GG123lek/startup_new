@@ -25,7 +25,9 @@ const Partners = () => {
         <br/>
         groups of people in a community.
         </p>
-        <button className='pa-btn'>Become an Agent</button>
+        <button className='pa-btn' onClick={()=>{
+          alert("whats wrong")
+        }}>Become an Agent</button>
         </div>
         <img src={partImg} alt=''/>
       </div>
@@ -34,7 +36,7 @@ const Partners = () => {
        <h1>About Agency Banking</h1>
        <p>Agency banking is a cost effective solution designed to provide financial access to the banked
           <br/>
-          in locations with very few ATMs/Banks, unbanked and underbanked population.</p>
+           in locations with very few ATMs/Banks, unbanked and underbanked population.</p>
       </div>
 
       <div className='text-div'>
@@ -134,13 +136,15 @@ const Partners = () => {
           </div>
           </table>
           </div>
-          <div className='qaty'>
+          <div className='comer'>
           <div className='nvxx'>
             <p>What are you waiting for?</p>
             <h3>Get your new Payment Digital remote now!!</h3>
             <h4>Download app</h4>
+            <div className='cd'>
             <img src={stre1} alt=''/>
             <img src={stre2} alt=''/>
+            </div>
           </div>
          </div>
          <Footer/>

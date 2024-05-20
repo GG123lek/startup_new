@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 20px;
+    padding: 40px;
 }
 .contents{
     display: flex;
@@ -15,21 +15,38 @@
     font: IBM Plex Sans;
     font-size: 70px;
     font-weight: lighter;
+    margin: 20px;
 }
+.homeP img
+{
+    margin: 10px;
+}
+.mild
+{
+    margin: 10px;
+}
+.yam
+{
+    text-align: center;
+    padding: 20px;
+}
+
 .ui .lo
 {
     color: rgba(71, 84, 103, 1);
+    margin: 20px;
+    
 }
 .ui .op
 {
-    width: 450px;
-    height: 350px;
+width: 45%;
 }
 
 .raw p 
 {
     text-align: center;
     color: rgba(245, 130, 32, 1);
+    margin: 20px;
     
     
 }
@@ -41,6 +58,7 @@
 .raw h5{
     text-align: center;
     color: rgba(71, 84, 103, 1);
+    margin: 20px;
 }
 .kam{
     border-left: 6px solid gainsboro;
@@ -139,6 +157,7 @@
 {
     color: rgba(245, 130, 32, 1);
     font: IBM Plex Sans;
+    margin: 20px;
 }
 .payment-pics h3
 {
@@ -148,6 +167,7 @@
 .payment-pics h5{
     color: rgba(71, 84, 103, 1);
     font: IBM Plex Sans;
+    margin: 20px;
 }
 .containerPics
 {
@@ -286,6 +306,10 @@
     text-align: center;
     gap: 150px;
 }
+.real p
+{
+    margin: 10px;
+}
 .teal
 {
     display: flex;
@@ -293,6 +317,7 @@
     align-items: center;
     text-align: center;
     padding: 100px;
+    
 }
 .spetnaz
 {
@@ -300,13 +325,14 @@
     width: 100%;
     height: 100px;
     text-align: center;
-    padding: 50px;
+    padding: 100px;
 }
 .gsg p
 {
     color: rgba(245, 130, 32, 1);
     font-size: 20px;
     font-weight: bold;
+    margin: 20px;
     
 }
 .gsg h3
@@ -339,6 +365,18 @@
 .tm{
   padding: 150px;
 }
+.tm h3
+{
+    margin: 20px;
+}
+.tm p
+{
+    margin: 20px;
+}
+.tm h4
+{
+    margin: 20px;
+}
 .uj
 {
     text-align: center;
@@ -348,6 +386,7 @@
     color: rgba(245, 130, 32, 1);
     font-size: 20px;
     font-weight: bold;
+    margin: 20px;
 }
 .uj p
 {
@@ -359,6 +398,7 @@
 .uj h4{
     color: rgba(29, 41, 57, 1);
     font-size: 15px;
+    margin: 20px;
 }
 .dwn
 {
@@ -389,12 +429,15 @@
     padding: 10px;
     font-weight: bold;
     font-size: 20px;
+    margin: 20px;
+    padding: 10px;
 }
 .ewz h4{
     color: rgba(29, 41, 57, 1);
     padding: 10px;
     font-weight: bold;
     font-size: 15px;
+    padding: 10px;
 }
 .mpaq
 {
@@ -486,11 +529,17 @@
     color: rgba(29, 41, 57, 1);
     font-size: 40px;
     font-weight: bold;
+    margin: 20px;
 }
 .down-pic h3{
     color: rgba(245, 130, 32, 1);
     font-size: 40px;
     font-weight: bold;
+    margin: 20px;
+}
+.down-pic img
+{
+    margin: 10px;
 }
 .socials{
     display: flex;

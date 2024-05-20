@@ -46,6 +46,7 @@
     padding: 20px;
     border-radius: 5px;
     margin: 10px;
+    border: none;
 }
 .tex-cent
 {
@@ -55,6 +56,7 @@
 .tex-cent h1
 {
     color: rgba(29, 41, 57, 1);
+    margin: 10px;
 }
 .tex-cent
 {
@@ -189,23 +191,35 @@
 {
     background: red;
 }
-.qaty
+.comer
 {
-    background: rgba(236, 238, 241, 1);
+    background: rgba(233, 237, 245, 1);
     padding:100px;
     margin: 0px;
 }
-.qaty p
+.comer p
 {
     color: rgba(29, 41, 57, 1);
 }
-.qaty h3{
+.comer h3{
     color: rgba(29, 41, 57, 1);
     font-size: 30px;
     font-weight: bold;
 }
-.qaty h4{
+.comer h4{
     color: rgba(245, 130, 32, 1);
+}
+.cd
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cd img
+{
+    height: 100%;
+    width: 100%;
 }
 .nvxx
 {
