@@ -1,0 +1,190 @@
+.ctST
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+.ctST h4{
+    color: rgba(245, 130, 32, 1);
+    font-size: 30px;
+    margin: 20px;
+}
+.ctST h1
+{
+    color: rgba(29, 41, 57, 1);
+    font-size: 90px;
+    margin: 20px;
+}
+.ctST p{
+    color: rgba(29, 41, 57, 1);
+    font-size: 20px;
+    margin: 20px;
+}
+.rotter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 290px;
+    padding: 20px;
+    flex-direction: start;
+    text-align: center;
+}
+.ctSM{
+    background-color: rgba(246, 248, 251, 1);
+    padding: 40px;
+    
+}
+span{
+    color: rgba(83, 120, 250, 1);
+}
+.jbl{
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jbl h5
+{
+    color: rgba(245, 130, 32, 1);
+    font-size: 20px;
+    margin: 20px;
+}
+.jbl h3
+{
+    color: rgba(29, 41, 57, 1);
+    font-size: 30px;
+    margin: 20px;
+}
+.jbl p
+{
+    color: rgba(71, 84, 103, 1);
+    font-size: 20px;
+}
+.rotter h1
+{
+    color: rgba(29, 41, 57, 1);
+    font-size: 20px;
+    margin: 10px;
+}
+.rotter p
+{
+    color: rgba(71, 84, 103, 1);
+    font-size: 20px;
+    margin: 10px;
+}
+.forms
+{
+    background:white;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 100px;
+}
+.alal
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.alal input
+{
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+.alal ::placeholder{
+    font-size: 25px;
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.forms h3
+{
+    color: rgba(245, 130, 32, 1);
+    font-size: 30px;
+    margin: 20px;
+}
+.forms h1
+{
+    color: rgba(29, 41, 57, 1);
+    font-size: 50px;
+    margin: 20px;
+}
+.forms p
+{
+    color: rgba(29, 41, 57, 1);
+    font-size: 30px;
+    margin: 20px;
+}
+.forms img{
+    width: 50%;
+    height: 50%;
+}
+.fego input
+{
+   padding: 20px;
+   font-size: 20px;
+   border-radius: 5px;
+   margin: 20px;
+}
+.fego p
+{
+    color: rgba(29, 41, 57, 1);
+    margin: 20px;
+}
+.fego ::placeholder
+{
+    font-size: 25px;
+}
+.uego input
+{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.uego p
+{
+    color: rgba(29, 41, 57, 1);
+    margin: 20px;
+}
+.uego ::placeholder
+{
+    font-size: 25px;
+}
+.jego p
+{
+    margin: 20px;
+}
+
+.jego textarea
+{
+    height: 100%;
+    outline: none;
+    border: 1px solid gainsboro;
+    width:100%;
+    font-size: 30px;
+    padding: 20px;
+}
+.jego button
+{
+    background: rgba(245, 130, 32, 1);
+    color: white;
+    padding: 30px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}

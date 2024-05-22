@@ -2,10 +2,13 @@ import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 import the from '../../Assets/images/image 515 (1).jpg'
+import { useNavigate } from 'react-router-dom'
 
 
 
 const Navbar = () => {
+  
+  const navigate = useNavigate();
   return (
     <>
     
@@ -30,9 +33,7 @@ const Navbar = () => {
                 </div>  
                 <div className='nav-btn'>
                 
-                <button onClick={()=>{
-          alert("welcome to this page")
-        }} >Contacts</button> 
+                <button onClick={()=>navigate("/contact")}>Contact Us</button> 
                 </div> 
         </div>
     </>
