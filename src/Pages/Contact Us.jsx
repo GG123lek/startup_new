@@ -58,47 +58,48 @@ function Contact () {
       
       <div className='forms'>
           <img src={formsIM} alt=''/>
-      
-        <div className='msg'>
+       <div>
+       <div className='msg'>
 
-        <div>
-          <h3>Contact Us</h3>
-          <h1>Send us a message</h1>
-          <p>our friendly team will love to hear from you</p>
-        </div>
-        <div>
-        <div className='alal'>
-          <div>
-        <p>First name</p>
-        <input name='' placeholder='First name'/>
-          </div>
-          <div>
-          <p>Last name</p>
-          <input name='' placeholder='Last name'/>
-          </div>
-        </div>
-        </div>
-       
-        <div className='fego'>
-          <p>Email</p>
-          <input name='' placeholder='you@company.com'/>
-        </div>
-        <div className='uego'>
-          <p>Phone Number</p>
-          <input name='' placeholder='+234(81)000-0000'/>
-        </div>
-        <div className='jego'>
-          <p>Message</p>
-          <textarea name='' placeholder=''/>
-          <div className='check'>
+<div>
+ <h3>Contact Us</h3>
+ <h1>Send us a message</h1>
+ <p>our friendly team will love to hear from you</p>
+</div>
+<div>
+<div className='alal'>
+ <div>
+<p>First name</p>
+<input name='' placeholder='First name'/>
+ </div>
+ <div>
+ <p>Last name</p>
+ <input name='' placeholder='Last name'/>
+ </div>
+</div>
+</div>
 
-          <input type='checkbox'/>
-          <p>you agree to our friendly privacy policy</p>
-          </div>
-          <button onClick={()=>{alert('hey dear')}}>Submit</button>
-        </div>
-        </div>
-    </div>
+<div className='fego'>
+ <p>Email</p>
+ <input name='' placeholder='you@company.com'/>
+</div>
+<div className='uego'>
+ <p>Phone Number</p>
+ <input name='' placeholder='+234(81)000-0000'/>
+</div>
+<div className='jego'>
+ <p>Message</p>
+ <textarea name='' placeholder=''/>
+ <div className='check'>
+
+ <input type='checkbox'/>
+ <p>you agree to our friendly privacy policy</p>
+ </div>
+ <button onClick={()=>{alert('hey dear')}}>Submit</button>
+</div>
+</div>
+</div>
+</div>
        <Footer/>
       </>
     )

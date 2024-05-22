@@ -76,27 +76,25 @@ span{
     font-size: 20px;
     margin: 10px;
 }
-.forms
-{
+.forms{
     background:white;
     display: flex;
     justify-content: center;
     gap: 60px;
     padding: 100px;
 }
-.alal
-{
+.alal{
     display: flex;
     align-items: center;
     gap: 20px;
     
 }
-.alal input
-{
+.alal input{
     border-radius: 5px;
     padding: 20px;
     font-size: 20px;
     margin: 20px;
+    width: 90%;
 }
 .alal ::placeholder{
     font-size: 25px;
@@ -114,35 +112,36 @@ span{
 {
     color: rgba(245, 130, 32, 1);
     font-size: 30px;
-    margin: 20px;
+    margin: 10px;
 }
 .forms h1
 {
     color: rgba(29, 41, 57, 1);
     font-size: 50px;
-    margin: 20px;
+    margin: 10px;
 }
 .forms p
 {
     color: rgba(29, 41, 57, 1);
     font-size: 30px;
-    margin: 20px;
+    margin: 10px;
 }
 .forms img{
-    width: 50%;
-    height: 50%;
+    width: 1000px;
+    height: 1000px;
 }
 .fego input
 {
    padding: 20px;
    font-size: 20px;
    border-radius: 5px;
-   margin: 20px;
+   margin: 10px;
+   width: 100%;
 }
 .fego p
 {
     color: rgba(29, 41, 57, 1);
-    margin: 20px;
+    margin: 10px;
 }
 .fego ::placeholder
 {
@@ -153,12 +152,13 @@ span{
     padding: 20px;
     font-size: 20px;
     border-radius: 5px;
-    margin: 20px;
+    margin: 10px;
+    width: 100%;
 }
 .uego p
 {
     color: rgba(29, 41, 57, 1);
-    margin: 20px;
+    margin: 10px;
 }
 .uego ::placeholder
 {
@@ -166,7 +166,7 @@ span{
 }
 .jego p
 {
-    margin: 20px;
+    margin: 10px;
 }
 
 .jego textarea

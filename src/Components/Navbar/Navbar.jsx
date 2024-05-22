@@ -1,13 +1,14 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 import the from '../../Assets/images/image 515 (1).jpg'
 import { useNavigate } from 'react-router-dom'
+import { AiOutlineDown } from 'react-icons/ai'
 
 
 
 const Navbar = () => {
-  
+  const [open, setOpen] = useState(false)
   const navigate = useNavigate();
   return (
     <>
@@ -21,8 +22,17 @@ const Navbar = () => {
                 <NavLink to="/product" >
                 <p style={{color:window.location.pathname === "/product" ? "orange":"", borderBottom:window.location.pathname === "/product" ? "1px solid orange":""}}>Products</p>
                 </NavLink>
-                <NavLink to="/partners" >
-                  <p style={{color:window.location.pathname === "/partners" ? "orange":"", borderBottom:window.location.pathname === "/partners" ? "1px solid orange":""}}>Partners</p>
+                <NavLink to="" >
+                  <p style={{color:window.location.pathname === "/partners" ? "orange":"", borderBottom:window.location.pathname === "/partners" ? "1px solid orange":""}} onClick={()=>{
+                    setOpen(!open)
+                  }}>Partners <AiOutlineDown size={15}/></p>
+                  {open &&<div className='submenu'>
+                    <NavLink to="/partners">
+
+                    <p>Agents</p>
+                    </NavLink>
+                    <p>Merchants</p>
+                  </div>}
                 </NavLink>
                 <NavLink to="/company">
                 <p style={{color:window.location.pathname === "/company" ? "orange":"", borderBottom:window.location.pathname === "/company" ? "1px solid orange":""}}>Company</p>

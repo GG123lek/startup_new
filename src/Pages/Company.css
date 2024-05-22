@@ -55,6 +55,7 @@
     grid-template-columns: repeat(3,auto);
     padding: 100px;
     text-align: center;
+    justify-content: space-between;
     gap: 150px;   
 }
 .qaty

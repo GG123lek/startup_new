@@ -4,6 +4,7 @@
     align-items: center;
     height: 100px;
     padding: 60px;
+    position: relative;
 }
 .nav-content img{
     width: 120px;
@@ -17,7 +18,11 @@
 }
 .navlinks p{
    font-size: 20px;
+   display: flex;
+   align-items: center;
+   gap: 7px;
    color: black;
+   padding: 3px;
 }
 .load{
     border-bottom:1px solid orange;
@@ -34,7 +39,16 @@
    font-size: 20px;
    background-color: rgba(245, 130, 32, 1);
 }
-
+.submenu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid red;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
 
 
 
