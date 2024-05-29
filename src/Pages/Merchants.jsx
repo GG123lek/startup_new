@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Merchants.css'
 import { useNavigate } from 'react-router-dom'
 import Navbar from '../Components/Navbar/Navbar'
@@ -9,12 +9,16 @@ import checkImg from '../Assets/images/mark.jpg'
 import lastIMG from '../Assets/images/Store (5).jpg'
 import firstIMG from '../Assets/images/Store (6).jpg'
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
+import AgentForm from './AgentForm'
 
 function Merchants() {
     const navigate = useNavigate();
+    const [createMerchant, setCreateMerchant] = useState(false)
   return (
    <>
+   {createMerchant && <AgentForm closeForm={setCreateMerchant}/>}
    <Navbar/>
+   
    <div className='pa-cont'>
         <div>
         <h1>Become a Merchant</h1>
@@ -25,7 +29,10 @@ function Merchants() {
         <br/>
         groups of people in a community.
         </p>
-        <button className='pa-btn' onClick={()=>navigate("/MerchantForm")}>Become a Merchant</button>
+        <button className='pa-btn'
+         onClick={()=>{
+            setCreateMerchant(true)
+        }}>Become a Merchant</button>
         </div>
         <img src={pictures} alt=''/>
       </div>

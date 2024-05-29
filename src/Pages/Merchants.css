@@ -50,6 +50,13 @@
     align-items: center;
     padding: 50px;
 }
+.text-div3 .weat .checkbox
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
 .comer
 {
     background: rgba(233, 237, 245, 1);

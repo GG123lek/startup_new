@@ -8,7 +8,7 @@ import Resources  from './Pages/Resources'
 import Contact from './Pages/Contact Us'
 import Merchants from './Pages/Merchants'
 import MerchantForm from './Pages/MerchantForm'
-import AgentForm from './Pages/AgentForm'
+// import AgentForm from './Pages/AgentForm'
 const App = () => {
   return (
     <>
@@ -24,7 +24,7 @@ const App = () => {
     <Route path="/contact"   element={< Contact/>} />
     <Route path="/merchants" element={<Merchants/>}/>
     <Route path="/merchantform" element={<MerchantForm/>}/>
-    <Route path="/agentform" element={<AgentForm/>}/>
+    {/* <Route path="/agentform" element={<AgentForm/>}/> */}
 
     </Route>
     </Routes>

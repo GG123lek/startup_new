@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import { useNavigate } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
+import { useState } from 'react';
 import partImg from '../Assets/images/Frame 1000005389.svg'
 import digImg from  '../Assets/images/digital.svg'
 import checkImg from '../Assets/images/_Checkbox base.svg'
@@ -11,11 +12,15 @@ import stre2 from '../Assets/images/Store (6).jpg'
 import Footer from './Footer';
 import './Partners.css'
 import {  AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import MerchantForm from './MerchantForm';
+import AgentForm from './AgentForm';
 
 const Partners = () => {
   const navigate = useNavigate ();
+  const [createMerchant, setCreateMerchant] = useState(false)
   return (
     <div>
+      {createMerchant && <AgentForm closeForm={setCreateMerchant}/>}
       <Navbar/>
       <div className='pa-cont'>
         <div>
@@ -27,7 +32,9 @@ const Partners = () => {
         <br/>
         groups of people in a community.
         </p>
-        <button className='pa-btn' onClick={()=>navigate("/AgentForm")}>Become an Agent</button>
+        <button className='pa-btn' onClick={()=>{
+            setCreateMerchant(true)
+        }}>Become an Agent</button>
         </div>
         <img src={partImg} alt=''/>
       </div>
