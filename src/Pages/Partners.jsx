@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
+import { useNavigate } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
 import partImg from '../Assets/images/Frame 1000005389.svg'
 import digImg from  '../Assets/images/digital.svg'
@@ -9,9 +10,10 @@ import stre1 from '../Assets/images/Store (5).jpg'
 import stre2 from '../Assets/images/Store (6).jpg'
 import Footer from './Footer';
 import './Partners.css'
-import { AiOutlineDown, AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import {  AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 const Partners = () => {
+  const navigate = useNavigate ();
   return (
     <div>
       <Navbar/>
@@ -25,9 +27,7 @@ const Partners = () => {
         <br/>
         groups of people in a community.
         </p>
-        <button className='pa-btn' onClick={()=>{
-          alert("whats wrong")
-        }}>Become an Agent</button>
+        <button className='pa-btn' onClick={()=>navigate("/AgentForm")}>Become an Agent</button>
         </div>
         <img src={partImg} alt=''/>
       </div>

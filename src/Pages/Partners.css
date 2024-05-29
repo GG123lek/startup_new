@@ -125,22 +125,24 @@
 
 /* styles for table components */
 .table{
-    margin: 30px;
+    margin: 35px;
     width: 95%;
 }
 .table th{
     border: 1px solid rgba(71, 84, 103, 1);
     text-align: start;
-    background: rgba(233, 237, 245, 1);
+    background: rgba(255, 243, 232, 1);
     padding: 10px;
     color: rgba(29, 41, 57, 1);
+    border: none;
 }
 .table td{
     text-align: start;
-    border: 1px solid rgba(226, 226, 226, 1);
+    border: 1px solid rgba(233, 237, 245, 1);
     color: rgba(71, 84, 103, 1);
     background:white;
     padding: 10px;
+    
 }
 .table-div
 {

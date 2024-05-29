@@ -23,6 +23,7 @@
    gap: 7px;
    color: black;
    padding: 3px;
+   
 }
 .load{
     border-bottom:1px solid orange;
@@ -48,9 +49,17 @@
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
+    border: none;
 }
-
-
+.submenu .ETE
+{
+    border-bottom: 1px solid rgba(239, 239, 239, 1);
+    padding: 20px;
+}
+.submenu p
+{
+    font-weight: bold;
+}
 
  
 

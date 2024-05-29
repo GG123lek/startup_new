@@ -27,11 +27,14 @@ const Navbar = () => {
                     setOpen(!open)
                   }}>Partners <AiOutlineDown size={15}/></p>
                   {open &&<div className='submenu'>
-                    <NavLink to="/partners">
+                    <NavLink to="/partners" >
 
-                    <p>Agents</p>
+                    <p className='ETE'>Agents</p>
                     </NavLink>
+                  <NavLink to="/merchants">
+
                     <p>Merchants</p>
+                  </NavLink>
                   </div>}
                 </NavLink>
                 <NavLink to="/company">

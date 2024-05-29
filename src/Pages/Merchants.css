@@ -1,0 +1,86 @@
+.text-div
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.text-div .weat .checkbox
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+.checkbox p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(71, 84, 103, 1);
+    margin: 10px;
+}
+.weat .checkbox
+{
+    
+    padding: 20px;
+}
+.text-div2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-direction: row-reverse;
+}
+.text-div2 .weat .checkbox
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+.text-div3
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.comer
+{
+    background: rgba(233, 237, 245, 1);
+    padding:100px;
+    margin: 0px;
+}
+.comer p
+{
+    color: rgba(29, 41, 57, 1);
+}
+.comer h3{
+    color: rgba(29, 41, 57, 1);
+    font-size: 30px;
+    font-weight: bold;
+}
+.comer h4{
+    color: rgba(245, 130, 32, 1);
+}
+.cd
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cd img
+{
+    height: 100%;
+    width: 100%;
+}
+.nvxx
+{
+    text-align: center;
+}
