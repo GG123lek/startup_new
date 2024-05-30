@@ -82,7 +82,7 @@ const Company = () => {
             <p>What are you waiting for?</p>
             <h3>Get your new Payment Digital remote now!!</h3>
             <h4>Download app</h4>
-            <div>
+            <div className='cd'>
             <img src={stre1} alt='' style={{width:"170px"}}/>
             <img src={stre2} alt=''style={{width:"170px"}}/>
             </div>
