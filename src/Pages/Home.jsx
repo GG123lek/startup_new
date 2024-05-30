@@ -13,6 +13,11 @@ import ktags from '../Assets/images/Picture (8).jpg'
 import ptags from '../Assets/images/Picture (9).jpg'
 import utags from '../Assets/images/Picture (10).jpg'
 import uiuximg from '../Assets/images/front.jpg'
+import uiuximages from '../Assets/images/Icon set (3).jpg'
+import uiuxphoto from '../Assets/images/merchant.jpg'
+import uiuxphotos from '../Assets/images/Icon set (4).jpg'
+import uiuxcam from '../Assets/images/Icon set (5).jpg'
+import uiuximgo from '../Assets/images/Icon set (7).jpg'
 import tope from '../Assets/images/b2c.jpg'
 import maty from '../Assets/images/Icon set.jpg'
 import matiy from '../Assets/images/Icon set (1).jpg'
@@ -173,7 +178,7 @@ const Home = () => {
         </div>
 
         <div>
-        <img src={uiuximg} alt=''/>
+        <img src={uiuximages} alt=''/>
         <p>Send Payment Request</p>
          <h5>
           Request for payment/transfer from family
@@ -182,7 +187,7 @@ const Home = () => {
         </h5>
         </div>
         <div>
-        <img src={uiuximg} alt=''/>
+        <img src={uiuxphoto} alt=''/>
         <p>Receive Payment Requests</p>
          <h5>
           Receive and securely authorize payment/transfer
@@ -191,7 +196,7 @@ const Home = () => {
         </h5>
         </div>
         <div>
-         <img src={uiuximg} alt=''/>
+         <img src={uiuxphotos} alt=''/>
         <p>Link All your Account</p>
          <h5>
           Customers can link as many accounts in
@@ -200,7 +205,7 @@ const Home = () => {
          </h5>
           </div>
           <div>
-         <img src={uiuximg} alt=''/>
+         <img src={uiuxcam} alt=''/>
         <p>ATM Withdrawals with Phone Number</p>
          <h5>
           Send friends,family and staff to withdraw
@@ -209,7 +214,7 @@ const Home = () => {
           </h5>
          </div>
          <div>
-         <img src={uiuximg} alt=''/>
+         <img src={uiuximgo} alt=''/>
         <p>Secure Transactions</p>
          <h5>
           Perform highly secure online transactions

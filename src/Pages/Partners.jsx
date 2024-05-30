@@ -12,7 +12,7 @@ import stre2 from '../Assets/images/Store (6).jpg'
 import Footer from './Footer';
 import './Partners.css'
 import {  AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
-import MerchantForm from './MerchantForm';
+
 import AgentForm from './AgentForm';
 
 const Partners = () => {

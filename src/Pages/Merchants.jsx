@@ -9,14 +9,14 @@ import checkImg from '../Assets/images/mark.jpg'
 import lastIMG from '../Assets/images/Store (5).jpg'
 import firstIMG from '../Assets/images/Store (6).jpg'
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
-import AgentForm from './AgentForm'
+import MerchantForm from './MerchantForm'
 
 function Merchants() {
     const navigate = useNavigate();
     const [createMerchant, setCreateMerchant] = useState(false)
   return (
    <>
-   {createMerchant && <AgentForm closeForm={setCreateMerchant}/>}
+   {createMerchant && <MerchantForm closeForm={setCreateMerchant}/>}
    <Navbar/>
    
    <div className='pa-cont'>

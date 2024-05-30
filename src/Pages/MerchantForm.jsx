@@ -1,7 +1,8 @@
 import React from 'react'
 import { IoMdClose } from "react-icons/io";
 import { Button } from 'bootstrap';
-import './MerchantForm.css'
+import './AgentForm.css'
+
 
 function MerchantForm(closeForm) {
   return (
@@ -9,6 +10,7 @@ function MerchantForm(closeForm) {
     <div className='formModal'>
             <div className='modal'>
               <div className='top'>
+                <div></div>
 
               <h1>Become a Merchant</h1>
               <IoMdClose size={40} style={{cursor:"pointer"}} onClick={()=>{
