@@ -1,7 +1,6 @@
 import React from "react";
 import "./AgentForm.css";
 import { IoMdClose } from "react-icons/io";
-import { Button } from "bootstrap";
 
 function AgentForm({ closeForm }) {
   return (
