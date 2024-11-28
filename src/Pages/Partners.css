@@ -1,46 +1,51 @@
-.pa-cont
-{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 20px;
+/* Base Styles for Larger Screens */
+.pa-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-.pa-cont h1{
+
+.pa-cont h1 {
     color: rgba(29, 41, 57, 1);
     padding: 10px;
     font-size: 90px;
 }
-.pa-cont p{
+
+.pa-cont p {
     color: rgba(71, 84, 103, 1);
     padding: 10px;
     font-size: 25px;
 }
-.arrow{
+
+.arrow {
     position: absolute;
     right: 80px;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.arrow button{
+
+.arrow button {
     padding: 6px;
     background-color: rgba(245, 130, 32, 1);
     border: none;
     color: white;
 }
-.button{
+
+.button {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    
 }
-.button p{
+
+.button p {
     display: flex;
     align-items: center;
     gap: 6px;
 }
-.pa-cont .pa-btn
-{
+
+.pa-cont .pa-btn {
     background: rgba(245, 130, 32, 1);
     color: white;
     padding: 20px;
@@ -48,88 +53,90 @@
     margin: 10px;
     border: none;
 }
-.tex-cent
-{
+
+.tex-cent {
     text-align: center;
     padding: 100px;
 }
-.tex-cent h1
-{
+
+.tex-cent h1 {
     color: rgba(29, 41, 57, 1);
     margin: 10px;
 }
-.tex-cent
-{
+
+.tex-cent {
     color: rgba(71, 84, 103, 1);
     font-size: 20px;
 }
-.text-div
-{
-    
+
+.text-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.text-div .checkbox
-{
+
+.text-div .checkbox {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.checkbox p{
+
+.checkbox p {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.tex-chk
-{
+
+.tex-chk {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.tex-chk .chk-st
-{
+
+.tex-chk .chk-st {
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-size: 20px;
 }
-.chk-st p{
+
+.chk-st p {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 20px;
     color: rgba(71, 84, 103, 1);
 }
-.chk-st h4
-{
+
+.chk-st h4 {
     color: rgba(29, 41, 57, 1);
 }
-.chk-st h5
-{
+
+.chk-st h5 {
     color: rgba(245, 130, 32, 1);
 }
-.chk-st h5
-{
+
+.chk-st h5 {
     display: flex;
-    align-items: center; 
+    align-items: center;
     padding-top: 20px;
-    gap: 10px;   
+    gap: 10px;
 }
-.tex-list
-{
+
+.tex-list {
     text-align: center;
     color: rgba(29, 41, 57, 1);
 }
 
 /* styles for table components */
-.table{
+.table {
     margin: 35px;
     width: 95%;
 }
-.table th{
+
+.table th {
     border: 1px solid rgba(71, 84, 103, 1);
     text-align: start;
     background: rgba(255, 243, 232, 1);
@@ -137,23 +144,23 @@
     color: rgba(29, 41, 57, 1);
     border: none;
 }
-.table td{
+
+.table td {
     text-align: start;
     border: 1px solid rgba(233, 237, 245, 1);
     color: rgba(71, 84, 103, 1);
-    background:white;
+    background: white;
     padding: 10px;
-    
 }
-.table-div
-{
-     border: 1px solid rgba(226, 226, 226, 1);
-     padding: 10px;
-     margin: 20px;
-     display: flex;
+
+.table-div {
+    border: 1px solid rgba(226, 226, 226, 1);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
 }
-.small-cont
-{
+
+.small-cont {
     border: 1px solid rgba(226, 226, 226, 1);
     padding: 5px;
     margin: 5px;
@@ -161,70 +168,177 @@
     background: rgba(226, 226, 226, 1);
     color: rgba(71, 84, 103, 1);
 }
-.main-div
-{
+
+.main-div {
     display: flex;
     align-items: center;
 }
-.small-cont img
-{
+
+.small-cont img {
     align-items: center;
     justify-content: space-between;
 }
-.small-cont p
-{
+
+.small-cont p {
     color: rgba(29, 41, 57, 1);
 }
-.nom
-{
+
+.nom {
     color: rgba(29, 41, 57, 1);
 }
-.t{
-    background: red;
-}
-.y
-{
-    background: yellow;
-}
-.u
-{
-    background: red;
-}
-.w
-{
-    background: red;
-}
-.comer
-{
+
+.comer {
     background: rgba(233, 237, 245, 1);
-    padding:100px;
+    padding: 100px;
     margin: 0px;
 }
-.comer p
-{
+
+.comer p {
     color: rgba(29, 41, 57, 1);
 }
-.comer h3{
+
+.comer h3 {
     color: rgba(29, 41, 57, 1);
     font-size: 30px;
     font-weight: bold;
 }
-.comer h4{
+
+.comer h4 {
     color: rgba(245, 130, 32, 1);
 }
-.cd
-{
+
+.cd {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.cd img
-{
+
+.cd img {
     height: 100%;
     width: 100%;
 }
-.nvxx
-{
+
+.nvxx {
     text-align: center;
+}
+
+/* Mobile and Tablet Responsiveness */
+@media (max-width: 768px) {
+    /* Flexbox Layout Changes */
+    .pa-cont {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .pa-cont h1 {
+        font-size: 60px;
+    }
+
+    .pa-cont p {
+        font-size: 20px;
+    }
+
+    .button {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .pa-btn {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .tex-cent {
+        padding: 50px 20px;
+    }
+
+    .tex-cent h1 {
+        font-size: 30px;
+    }
+
+    .tex-cent {
+        font-size: 16px;
+    }
+
+    .text-div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .tex-chk {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .table {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .table th, .table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .small-cont {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .cd {
+        flex-direction: column;
+    }
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .pa-cont h1 {
+        font-size: 45px;
+    }
+
+    .pa-cont p {
+        font-size: 18px;
+    }
+
+    .button p {
+        font-size: 16px;
+    }
+
+    .pa-btn {
+        padding: 15px;
+    }
+
+    .tex-cent h1 {
+        font-size: 25px;
+    }
+
+    .tex-cent {
+        font-size: 14px;
+    }
+
+    .table th, .table td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .small-cont {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
 }

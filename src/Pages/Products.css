@@ -1,20 +1,15 @@
-.ui
-{
+/* Base Styles for Larger Screens */
+.ui {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-    
 }
 
-.ui .lo
-{
+.ui .lo {
     font-size: 20px;
-    
 }
-.btn-cont
-{
+
+.btn-cont {
     background: rgba(245, 130, 32, 1);
     color: white;
     border-radius: 5px;
@@ -23,9 +18,8 @@
     margin: 10px;
     border: none;
 }
-.ewz
-{
-    
+
+.ewz {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,96 +28,249 @@
     flex-direction: start;
     text-align: center;
 }
-.ewz p
-{
+
+.ewz p {
     color: rgba(29, 41, 57, 1);
     padding: 10px;
     font-weight: bold;
     font-size: 25px;
 }
-.ewz h4{
+
+.ewz h4 {
     color: rgba(29, 41, 57, 1);
     padding: 10px;
     font-weight: bold;
     font-size: 20px;
 }
-.flexout{
+
+.flexout {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
 }
-.flexout img{
+
+.flexout img {
     width: 650px;
 }
 
-.mi
-{
+.mi {
     padding: 10px;
 }
-.mi h4
-{
- font-size: 50px;
- font-weight: bold;
- color: rgba(245, 130, 32, 1);   
- margin-left: 50px;
- 
+
+.mi h4 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(245, 130, 32, 1);
+    margin-left: 50px;
 }
-.comer
-{
-    background: rgba(223,237,245,1);
-    padding:100px;
+
+.comer {
+    background: rgba(223, 237, 245, 1);
+    padding: 100px;
     margin: 0px;
 }
-.comer p
-{
+
+.comer p {
     color: rgba(29, 41, 57, 1);
 }
-.comer h3{
+
+.comer h3 {
     color: rgba(29, 41, 57, 1);
     font-size: 30px;
     font-weight: bold;
 }
-.comer h4{
+
+.comer h4 {
     color: rgba(245, 130, 32, 1);
 }
-.nvxx
-{
+
+.nvxx {
     text-align: center;
-    
 }
-.nvxx p{
+
+.nvxx p {
     font-size: 30px;
 }
-.cd
-{
+
+.cd {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 20px;
 }
-.cd img
-{
+
+.cd img {
     height: 100%;
     width: 100%;
 }
-.footer
-{
+
+.footer {
     background: rgba(29, 41, 57, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    text-align: center;    
+    text-align: center;
 }
-.footer h4{
+
+.footer h4 {
     padding: 10px;
     text-align: center;
 }
-.footer p
-{
- padding: 20px;   
- text-align: center;
+
+.footer p {
+    padding: 20px;
+    text-align: center;
 }
 
+/* Mobile and Tablet Responsiveness */
+@media (max-width: 768px) {
+    .ui {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .btn-cont {
+        width: 120px;
+        height: 35px;
+    }
+
+    .ewz {
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px;
+    }
+
+    .ewz p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .ewz h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .flexout {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .flexout img {
+        width: 100%;
+    }
+
+    .mi h4 {
+        font-size: 40px;
+        margin-left: 0;
+    }
+
+    .comer {
+        padding: 80px 20px;
+    }
+
+    .comer h3 {
+        font-size: 24px;
+    }
+
+    .comer h4 {
+        font-size: 20px;
+    }
+
+    .nvxx p {
+        font-size: 25px;
+    }
+
+    .cd {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .footer h4,
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+    .ui {
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-cont {
+        width: 100px;
+        height: 30px;
+    }
+
+    .ewz {
+        padding: 15px;
+    }
+
+    .ewz p {
+        font-size: 18px;
+    }
+
+    .ewz h4 {
+        font-size: 16px;
+    }
+
+    .flexout {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .flexout img {
+        width: 90%;
+    }
+
+    .mi h4 {
+        font-size: 35px;
+        margin-left: 0;
+    }
+
+    .comer {
+        padding: 60px 10px;
+    }
+
+    .comer h3 {
+        font-size: 20px;
+    }
+
+    .comer h4 {
+        font-size: 18px;
+    }
+
+    .nvxx p {
+        font-size: 22px;
+    }
+
+    .cd {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .footer h4,
+    .footer p {
+        font-size: 14px;
+    }
+}

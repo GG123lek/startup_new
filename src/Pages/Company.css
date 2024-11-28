@@ -1,89 +1,289 @@
-.company
-{
+/* Base Styles for Company Page */
+
+.company {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.company h1
-{
+
+.company h1 {
     color: rgba(0, 0, 0, 1);
     font-size: 90px;
 }
-.company p
-{
+
+.company p {
     color: rgba(71, 84, 103, 1);
     font-size: 30px;
 }
-.text-company
-{
+
+.text-company {
     text-align: center;
     color: rgba(71, 84, 103, 1);
     align-items: center;
     padding: 30px;
     margin: 20px;
 }
-.text-company p
-{
+
+.text-company p {
     font-size: 20px;
 }
-.all-pics
-{
+
+.all-pics {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.text3
-{
+
+.text3 {
     text-align: center;
     padding: 50px;
 }
-.text3 h4
-{
+
+.text3 h4 {
     color: rgba(245, 130, 32, 1);
     margin: 10px;
-    font-size: 20px
+    font-size: 20px;
 }
-.text3 h1
-{
+
+.text3 h1 {
     color: rgba(16, 24, 40, 1);
     font-size: 20px;
 }
-.text3 p
-{
+
+.text3 p {
     color: rgba(71, 84, 103, 1);
     margin: 10px;
     font-size: 20px;
 }
-.compDirect
-{
+
+.compDirect {
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
     padding: 100px;
     text-align: center;
     justify-content: space-between;
-    gap: 150px;   
+    gap: 150px;
 }
-.qaty
-{
+
+.qaty {
     background: rgba(236, 238, 241, 1);
-    padding:100px;
+    padding: 100px;
     margin: 0px;
 }
-.qaty p
-{
+
+.qaty p {
     color: rgba(29, 41, 57, 1);
 }
-.qaty h3{
+
+.qaty h3 {
     color: rgba(29, 41, 57, 1);
     font-size: 30px;
     font-weight: bold;
 }
-.qaty h4{
+
+.qaty h4 {
     color: rgba(245, 130, 32, 1);
 }
-.nvxx
-{
+
+.nvxx {
     text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet (Screens < 1024px) */
+@media (max-width: 1024px) {
+    .company {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .company h1 {
+        font-size: 50px;
+    }
+
+    .company p {
+        font-size: 24px;
+    }
+
+    .text-company {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .text-company p {
+        font-size: 18px;
+    }
+
+    .all-pics {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .text3 {
+        padding: 30px;
+    }
+
+    .text3 h4 {
+        font-size: 18px;
+    }
+
+    .text3 h1 {
+        font-size: 22px;
+    }
+
+    .text3 p {
+        font-size: 18px;
+    }
+
+    .compDirect {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px;
+        gap: 50px;
+    }
+
+    .qaty {
+        padding: 80px;
+    }
+
+    .qaty h3 {
+        font-size: 26px;
+    }
+
+    .qaty h4 {
+        font-size: 22px;
+    }
+}
+
+/* Mobile (Screens < 768px) */
+@media (max-width: 768px) {
+    .company {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .company h1 {
+        font-size: 40px;
+    }
+
+    .company p {
+        font-size: 20px;
+    }
+
+    .text-company {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .text-company p {
+        font-size: 16px;
+    }
+
+    .all-pics {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .text3 {
+        padding: 20px;
+    }
+
+    .text3 h4 {
+        font-size: 16px;
+    }
+
+    .text3 h1 {
+        font-size: 18px;
+    }
+
+    .text3 p {
+        font-size: 16px;
+    }
+
+    .compDirect {
+        grid-template-columns: 1fr;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .qaty {
+        padding: 60px;
+    }
+
+    .qaty h3 {
+        font-size: 24px;
+    }
+
+    .qaty h4 {
+        font-size: 20px;
+    }
+}
+
+/* Small Mobile (Screens < 480px) */
+@media (max-width: 480px) {
+    .company {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .company h1 {
+        font-size: 30px;
+    }
+
+    .company p {
+        font-size: 18px;
+    }
+
+    .text-company {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .text-company p {
+        font-size: 14px;
+    }
+
+    .all-pics {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .text3 {
+        padding: 10px;
+    }
+
+    .text3 h4 {
+        font-size: 14px;
+    }
+
+    .text3 h1 {
+        font-size: 16px;
+    }
+
+    .text3 p {
+        font-size: 14px;
+    }
+
+    .compDirect {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .qaty {
+        padding: 50px;
+    }
+
+    .qaty h3 {
+        font-size: 22px;
+    }
+
+    .qaty h4 {
+        font-size: 18px;
+    }
 }

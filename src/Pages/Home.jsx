@@ -28,6 +28,7 @@ import baaa from '../Assets/images/Store (6).jpg'
 import pictures from '../Assets/images/NICK.jpg'
 import imgProduct from '../Assets/images/Banner.jpg'
 import jaaa from '../Assets/images/iPhone 14 Mockups.jpg'
+
 import { FiArrowUpRight } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa";
 import './Home.css'
@@ -40,6 +41,7 @@ const Home = () => {
 
   // Array of images for the sliding carousel
   const imageArray = [caw, imgProduct, pictures];
+
 
   useEffect(() => {
     const interval = setInterval(() => {
