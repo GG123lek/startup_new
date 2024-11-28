@@ -99,6 +99,7 @@ const Partners = () => {
             <th>
               STATE
             </th>
+
           </thead>
           <tbody>
             <tr>

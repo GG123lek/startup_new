@@ -25,33 +25,66 @@ import matoy from '../Assets/images/Icon set (2).jpg'
 import bjar from '../Assets/images/Image (4).jpg'
 import maaa from  '../Assets/images/Store (5).jpg'
 import baaa from '../Assets/images/Store (6).jpg'
+import pictures from '../Assets/images/NICK.jpg'
+import imgProduct from '../Assets/images/Banner.jpg'
 import jaaa from '../Assets/images/iPhone 14 Mockups.jpg'
 import { FiArrowUpRight } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa";
 import './Home.css'
+import  { useState, useEffect } from 'react';
 import Footer from './Footer'
 
 const Home = () => {
+  // State for transitioning images
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Array of images for the sliding carousel
+  const imageArray = [caw, imgProduct, pictures];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageArray.length); // Cycle through images
+    }, 3000); // Change image every 3 seconds
+
+    return () => clearInterval(interval); // Cleanup on component unmount
+  }, [imageArray.length]);
   return (
     <>
     <div>
         <Navbar/>
-        <div className='ui'>
-        <div>
-        <h1>Manage all your bank<br/>account from one<br/>secure</h1>
-        <p className='lo'>One secure platform to pay,get paid and manage<br/>
-        your finance better and with ease</p>
-         <div className='homeP'>
-        <img src={taw} alt=''/>
-        <img src={naw} alt=''/>
+        <div className="ui">
+          <div>
+            <h1>
+              Manage all your bank
+              <br />
+              account from one
+              <br />
+              secure
+            </h1>
+            <p className="lo">
+              One secure platform to pay, get paid and manage
+              <br />
+              your finance better and with ease
+            </p>
+            <div className="homeP">
+              <img src={taw} alt="" />
+              <img src={naw} alt="" />
+            </div>
+            <div>
+              <img src={uaw} alt="" className="mild" />
+              <img src={ham} alt="" className="yam" />
+            </div>
+          </div>
+          {/* Sliding Image */}
+          <div className="sliding-container">
+            <img
+              src={imageArray[currentImageIndex]}
+              alt="Transitioning"
+              className="sliding-image"
+            />
+          </div>
         </div>
-        <div>
-        <img src={uaw} alt='' className='mild'/>
-        <img src={ham} alt='' className='yam'/>
-        </div>
-        </div>
-        <img  src={caw} alt='' className='op'/>
-        </div>
+
         
        <div className='raw'>
         <p>Solutions</p>
