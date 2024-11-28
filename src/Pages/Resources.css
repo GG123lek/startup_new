@@ -1,25 +1,23 @@
-/* Resources Section */
-.resou-cont {
+.resou-cont
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-
-.resou-cont h1 {
+.resou-cont h1{
     color: rgba(29, 41, 57, 1);
     font-size: 90px;
     padding: 20px;
 }
-
-.resou-cont p {
+.resou-cont p
+{
     color: rgba(71, 84, 103, 1);
     font-size: 25px;
     margin: 20px;
 }
-
-/* Search Input Styling */
-.inputSEA {
+.inputSEA
+{
     display: flex;
     border: 1px solid gainsboro;
     gap: 5px;
@@ -27,19 +25,18 @@
     width: 15%;
     border-radius: 5px;
 }
-
-.inputSEA input {
+.inputSEA input
+{
     border: none;
     width: 100%;
     outline: none;
 }
-
-.inputSEA::placeholder {
+.inputSEA ::placeholder
+{
     font-size: 15px;
 }
-
-/* Resource Content Styling */
-.res-con {
+.res-con
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,27 +45,23 @@
     padding: 60px;
     text-align: center;
 }
-
-.res-con h1 {
+.res-con h1
+{
     color: rgba(29, 41, 57, 1);
     font-size: 35px;
 }
-
-.res-con p {
+.res-con p
+{
     color: rgba(71, 84, 103, 1);
     font-size: 25px;
 }
-
-/* Question Styling */
-.quest {
+.quest{
     display: flex;
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid gainsboro;
 }
-
-/* Top-up Section Styling */
-.topup {
+.topup{
     display: flex;
     flex-direction: column;
     padding-left: 170px;
@@ -77,130 +70,42 @@
     font-size: 20px;
     font-weight: bold;
 }
-
-/* Additional Styling */
-.qaty {
+.qaty
+{
     background: rgba(236, 238, 241, 1);
-    padding: 50px;
+    padding:50px;
     margin: 0px;
 }
-
-.qaty p {
+.qaty p
+{
     color: rgba(29, 41, 57, 1);
 }
-
-.qaty h3 {
+.qaty h3{
     color: rgba(29, 41, 57, 1);
     font-size: 30px;
     font-weight: bold;
 }
-
-.qaty h4 {
+.qaty h4{
     color: rgba(245, 130, 32, 1);
 }
-
-.nvxx {
+.nvxx
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-
-.nvxx img {
+.nvxx img{
     width: 16%;
 }
-
-.qaty .vcnn {
+.qaty .vcnn
+{
     background: rgba(245, 130, 32, 1);
     color: white;
     padding: 20px;
     border-radius: 5px;
     font-size: 18px;
     border: none;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .resou-cont h1 {
-        font-size: 70px; /* Adjust font size for medium screens */
-    }
-
-    .resou-cont p {
-        font-size: 22px; /* Reduce font size for smaller screens */
-    }
-
-    .inputSEA {
-        width: 30%; /* Increase input width on tablets */
-    }
-
-    .res-con h1 {
-        font-size: 30px; /* Adjust heading font size */
-    }
-
-    .res-con p {
-        font-size: 20px; /* Adjust paragraph font size */
-    }
-}
-
-@media (max-width: 768px) {
-    .resou-cont h1 {
-        font-size: 60px; /* Reduce font size for smaller tablets or large phones */
-    }
-
-    .resou-cont p {
-        font-size: 20px; /* Adjust font size */
-    }
-
-    .inputSEA {
-        width: 50%; /* Increase input width for smaller devices */
-    }
-
-    .res-con h1 {
-        font-size: 25px; /* Adjust heading font size */
-    }
-
-    .res-con p {
-        font-size: 18px; /* Adjust paragraph font size */
-    }
-
-    .topup {
-        padding-left: 20px; /* Reduce padding on smaller screens */
-        padding-right: 20px; /* Reduce padding */
-    }
-
-    .nvxx img {
-        width: 30%; /* Adjust image size on smaller devices */
-    }
-}
-
-@media (max-width: 480px) {
-    .resou-cont h1 {
-        font-size: 45px; /* Significantly reduce font size on small screens */
-    }
-
-    .resou-cont p {
-        font-size: 18px; /* Adjust font size */
-    }
-
-    .inputSEA {
-        width: 80%; /* Increase width of input on very small screens */
-    }
-
-    .res-con h1 {
-        font-size: 22px; /* Smaller font size for headings */
-    }
-
-    .res-con p {
-        font-size: 16px; /* Adjust paragraph font size */
-    }
-
-    .topup {
-        padding-left: 10px; /* Further reduce padding */
-        padding-right: 10px; /* Further reduce padding */
-    }
-
-    .nvxx img {
-        width: 50%; /* Make images smaller for small screens */
-    }
+     
 }
