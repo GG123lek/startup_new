@@ -3,7 +3,7 @@ import { IoMdClose } from "react-icons/io";
 import './AgentForm.css'
 
 
-function MerchantForm(closeForm) {
+function MerchantForm({closeForm}) {
   return (
     <>
     <div className='formModal'>
@@ -25,10 +25,6 @@ function MerchantForm(closeForm) {
               <div className='inputStyle'>
                 <label>Last name</label>
                 <input type='text' placeholder='Enter your first name'/>
-              </div>
-              <div className='inputStyle'>
-                <label>Email</label>
-                <input type='text' placeholder='Enter your last name'/>
               </div>
               <div className='inputStyle'>
                 <label>Email</label>

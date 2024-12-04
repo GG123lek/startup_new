@@ -41,7 +41,7 @@ const Navbar = () => {
           </NavLink>
         </div>  
         <div className='nav-btn'>
-          <button onClick={() => navigate("/contact")}>Contact Us</button> 
+          <button style={{cursor:'pointer'}} onClick={() => navigate("/contact")}>Contact Us</button> 
         </div>
         {/* Hamburger Menu Icon */}
         <div className='hamburger' onClick={() => setOpen(!open)}>

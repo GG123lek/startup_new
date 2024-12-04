@@ -8,7 +8,6 @@ function AgentForm({ closeForm }) {
       <div className="formModal">
         <div className="modal">
           <div className="top">
-            <div></div>
             <h1>Become a Agent</h1>
             <IoMdClose
               size={40}
@@ -26,10 +25,6 @@ function AgentForm({ closeForm }) {
             <div className="inputStyle">
               <label>Last name</label>
               <input type="text" placeholder="Enter your first name" />
-            </div>
-            <div className="inputStyle">
-              <label>Email</label>
-              <input type="text" placeholder="Enter your last name" />
             </div>
             <div className="inputStyle">
               <label>Email</label>

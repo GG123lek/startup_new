@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './Merchants.css'
-import { useNavigate } from 'react-router-dom'
 import Navbar from '../Components/Navbar/Navbar'
 import Footer from './Footer'
 import pictures from '../Assets/images/NICK.jpg'
@@ -11,12 +10,18 @@ import firstIMG from '../Assets/images/Store (6).jpg'
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
 import MerchantForm from './MerchantForm'
 
+
 function Merchants() {
-    const navigate = useNavigate();
+   
     const [createMerchant, setCreateMerchant] = useState(false)
+    const [isFormOpen, setIsFormOpen] = useState(true);
+
   return (
    <>
    {createMerchant && <MerchantForm closeForm={setCreateMerchant}/>}
+   <div>
+      {isFormOpen && <MerchantForm closeForm={setIsFormOpen} />}
+    </div>
    <Navbar/>
    
    <div className='pa-cont'>
@@ -29,7 +34,7 @@ function Merchants() {
         <br/>
         groups of people in a community.
         </p>
-        <button className='pa-btn'
+        <button style={{cursor:'pointer'}} className='pa-btn'
          onClick={()=>{
             setCreateMerchant(true)
         }}>Become a Merchant</button>
@@ -183,7 +188,7 @@ function Merchants() {
             <tr>
               <td>3</td>
               <td>TUNDDE ALABI</td>
-              <td>89 OGUNLANA DRIVE, SURULERE</td>
+              <td>89 OGUNLANA DRIVE,SURULERE</td>
               <td>LAGOS STATE</td>
             </tr>
             <tr>
